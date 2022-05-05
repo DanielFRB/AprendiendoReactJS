@@ -1,0 +1,47 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/calculadora/node_modules
+/calculadora/.pnp
+/calculadora/.pnp.js
+/clicks-counter/node_modules
+/clicks-counter/.pnp
+/clicks-counter/.pnp.js
+/freecodecamp-clone/node_modules
+/freecodecamp-clone/.pnp
+/freecodecamp-clone/.pnp.js
+
+
+# testing
+/calculadora/coverage
+/clicks-counter/coverage
+/freecodecamp-clone/coverage
+
+
+# production
+/calculadora/build
+/clicks-counter/build
+/freecodecamp-clone/build
+
+
+# misc
+/calculadora/.DS_Store
+/calculadora/.env.local
+/calculadora/.env.development.local
+/calculadora/.env.test.local
+/calculadora/.env.production.local
+/clicks-counter/.DS_Store
+/clicks-counter/.env.local
+/clicks-counter/.env.development.local
+/clicks-counter/.env.test.local
+/clicks-counter/.env.production.local
+/freecodecamp-clone/.DS_Store
+/freecodecamp-clone/.env.local
+/freecodecamp-clone/.env.development.local
+/freecodecamp-clone/.env.test.local
+/freecodecamp-clone/.env.production.local
+
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
