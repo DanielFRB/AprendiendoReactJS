@@ -7,21 +7,36 @@
 /clicks-counter/node_modules
 /clicks-counter/.pnp
 /clicks-counter/.pnp.js
+/clicks-counter-clases/node_modules
+/clicks-counter-clases/.pnp
+/clicks-counter-clases/.pnp.js
 /freecodecamp-clone/node_modules
 /freecodecamp-clone/.pnp
 /freecodecamp-clone/.pnp.js
+/freecodecamp-clone-clases/node_modules
+/freecodecamp-clone-clases/.pnp
+/freecodecamp-clone-clases/.pnp.js
+/reactjs-tasks-app/node_modules
+/reactjs-tasks-app/.pnp
+/reactjs-tasks-app/.pnp.js
 
 
 # testing
 /calculadora/coverage
 /clicks-counter/coverage
+/clicks-counter-clases/coverage
 /freecodecamp-clone/coverage
+/freecodecamp-clone-clases/coverage
+/reactjs-tasks-app/coverage
 
 
 # production
 /calculadora/build
 /clicks-counter/build
+/clicks-counter-clases/build
 /freecodecamp-clone/build
+/freecodecamp-clone-clases/build
+/reactjs-tasks-app/build
 
 
 # misc
@@ -35,12 +50,26 @@
 /clicks-counter/.env.development.local
 /clicks-counter/.env.test.local
 /clicks-counter/.env.production.local
+/clicks-counter-clases/.DS_Store
+/clicks-counter-clases/.env.local
+/clicks-counter-clases/.env.development.local
+/clicks-counter-clases/.env.test.local
+/clicks-counter-clases/.env.production.local
 /freecodecamp-clone/.DS_Store
 /freecodecamp-clone/.env.local
 /freecodecamp-clone/.env.development.local
 /freecodecamp-clone/.env.test.local
 /freecodecamp-clone/.env.production.local
-
+/freecodecamp-clone-clases/.DS_Store
+/freecodecamp-clone-clases/.env.local
+/freecodecamp-clone-clases/.env.development.local
+/freecodecamp-clone-clases/.env.test.local
+/freecodecamp-clone-clases/.env.production.local
+/reactjs-tasks-app/.DS_Store
+/reactjs-tasks-app/.env.local
+/reactjs-tasks-app/.env.development.local
+/reactjs-tasks-app/.env.test.local
+/reactjs-tasks-app/.env.production.local
 
 npm-debug.log*
 yarn-debug.log*
