@@ -19,6 +19,10 @@
 /reactjs-tasks-app/node_modules
 /reactjs-tasks-app/.pnp
 /reactjs-tasks-app/.pnp.js
+/my-fazt-app/node_modules
+/my-fazt-app/.pnp
+/my-fazt-app/.pnp.js
+
 
 
 # testing
@@ -28,6 +32,7 @@
 /freecodecamp-clone/coverage
 /freecodecamp-clone-clases/coverage
 /reactjs-tasks-app/coverage
+/my-fazt-app/coverage
 
 
 # production
@@ -37,6 +42,7 @@
 /freecodecamp-clone/build
 /freecodecamp-clone-clases/build
 /reactjs-tasks-app/build
+/my-fazt-app/build
 
 
 # misc
@@ -70,6 +76,12 @@
 /reactjs-tasks-app/.env.development.local
 /reactjs-tasks-app/.env.test.local
 /reactjs-tasks-app/.env.production.local
+/my-fazt-app/.DS_Store
+/my-fazt-app/.env.local
+/my-fazt-app/.env.development.local
+/my-fazt-app/.env.test.local
+/my-fazt-app/.env.production.local
+
 
 npm-debug.log*
 yarn-debug.log*
