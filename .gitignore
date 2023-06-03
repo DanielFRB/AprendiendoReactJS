@@ -1,0 +1,7 @@
+/.vscode
+/archivo-gitignore.txt
+
+/FreeCodeCampCurso/npm-debug.log*
+/FreeCodeCampCurso/yarn-debug.log*
+/FreeCodeCampCurso/yarn-error.log*
+
