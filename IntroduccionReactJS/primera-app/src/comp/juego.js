@@ -26,7 +26,7 @@ export default function Juego() {
     }
     return (
       <li key={movimiento}>
-        <button onClick={() => saltarHasta(movimiento)}>{description}</button>
+        <button className="btn" onClick={() => saltarHasta(movimiento)}>{description}</button>
       </li>
     );
   });
