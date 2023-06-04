@@ -1,26 +1,36 @@
 * {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
+html,
 body {
-  font-family: sans-serif;
-  margin: 20px;
-  padding: 0;
+  background-color: #24243c;
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  font-family: Lato, sans-serif;
 }
 
 .cuadro {
   background: #fff;
-  border: 1px solid #999;
+  border: 2px solid #999;
   float: left;
-  font-size: 24px;
+  font-size: 114px;
   font-weight: bold;
   line-height: 34px;
-  height: 34px;
+  height: 120px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 120px;
 }
 
 .tablero-row:after {
@@ -31,13 +41,39 @@ body {
 
 .status {
   margin-bottom: 10px;
+  font-size: 25px;
+  color: #fff;
+}
+
+.btn {
+  width: 210px;
+  height: 25px;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  border: 2px solid white;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 4px;
 }
 
 .game {
+  height: 550px;
+  min-width: 600px;
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-board {
+  padding-right: 20px;
 }
 
 .game-info {
-  margin-left: 20px;
+  margin-left: 10px;
+  font-size: 20px;
+  color: burlywood;
+  padding-left: 10px;
 }
