@@ -1,6 +1,8 @@
 /.vscode
 /archivo-gitignore.txt
 
+/IntroduccionReactJS/primera-app/node_modules/
+
 /FreeCodeCampCurso/npm-debug.log*
 /FreeCodeCampCurso/yarn-debug.log*
 /FreeCodeCampCurso/yarn-error.log*
