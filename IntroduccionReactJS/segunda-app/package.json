@@ -1,0 +1,21 @@
+{
+  "name": "segunda-app",
+  "version": "1.0.0",
+  "description": "Muestra Productos por Categoria",
+  "main": "/index.js",
+  "author": "Daniel Rondon",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
