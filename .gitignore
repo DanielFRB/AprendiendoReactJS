@@ -1,6 +1,8 @@
 /.vscode
 /archivo-gitignore.txt
 
+/IntroduccionReactJS/nextjs/
+
 /IntroduccionReactJS/primera-app/node_modules/
 
 /IntroduccionReactJS/segunda-app/node_modules/
