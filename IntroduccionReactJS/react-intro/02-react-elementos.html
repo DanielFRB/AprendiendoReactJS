@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elementos en React #2</title>
+</head>
+<body>
+  <div id="react-container"></div>
+  <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+  <script>
+    const items = [
+        "1 lb Salmon",
+        "1 cup Pine Nuts",
+        "2 cups Butter Lettuce",
+        "1 Yellow Squash",
+        "1/2 cup Olive Oil",
+        "3 cloves of Garlic"
+    ]
+
+    const ingredients = React.createElement(
+        "ul",
+        { className: "ingredients" },
+        items.map((ingredient, i) =>
+            React.createElement("li", { key: i }, ingredient)
+        )
+    )
+
+    ReactDOM.render(
+        ingredients, document.getElementById('react-container')
+    )
+
+    console.log('ingredients', ingredients)
+  </script>
+</body>
+</html>
