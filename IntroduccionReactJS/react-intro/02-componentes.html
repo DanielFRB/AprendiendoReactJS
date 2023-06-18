@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Componentes en React #2</title>
+</head>
+<body>
+  <div id="react-container"></div>
+  <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+  <script>
+    class IngredientsList extends React.Component {
+      render() {
+        return React.createElement("ul", {className: "ingredients"},
+          this.props.items.map((ingredient, i) =>
+            React.createElement("li", { key: i }, ingredient)
+          ))
+        }
+    }
+
+    const items = [
+      "1 lb Salmon",
+      "1 cup Pine Nuts",
+      "2 cups Butter Lettuce",
+      "1 Yellow Squash",
+      "1/2 cup Olive Oil",
+      "3 cloves of Garlic"
+    ];
+
+    ReactDOM.render(
+      React.createElement(IngredientsList, {items}, null), document.getElementById('react-container')
+    );
+  </script>
+</body>
+</html>
